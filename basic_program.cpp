@@ -22,7 +22,7 @@ void solve(){
     cout<<res<<endl;
 }
 int main(){
-    cout<<"Hello world"<<endl;
+    // cout<<"Hello world"<<endl;
     solve();
     return 0;
 }
