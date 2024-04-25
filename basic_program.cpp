@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-
+int mod 1e9+7;
 
 int factorial(int n){
     int res=1;
@@ -9,8 +9,12 @@ int factorial(int n){
     }
     return res%mod;
 }
-int main(){
+
+void solve(){
     int n=5;
     cout<<factorial(n)<<endl;
+}
+int main(){
+    solve();
     return 0;
 }
