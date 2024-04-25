@@ -1,3 +1,4 @@
+//Calculate Factorial
 #include<bits/stdc++.h>
 using namespace std;
 int mod=1e9+7;
@@ -10,7 +11,7 @@ int factorial(int n){
     return res%mod;
 }
 int main(){
-    cout<<"Hello world"<<endl;
+    // cout<<"Hello world"<<endl;
     int n=5;
     int res=factorial(n);
     cout<<res<<endl;
