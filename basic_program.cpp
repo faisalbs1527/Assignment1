@@ -9,10 +9,20 @@ int factorial(int n){
     }
     return res%mod;
 }
-int main(){
-    cout<<"Hello world"<<endl;
-    int n=5;
+
+int takeInput(){
+    int n;
+    cin>>n;
+    return n;
+}
+
+void solve(){
+    int n=takeInput();
     int res=factorial(n);
     cout<<res<<endl;
+}
+int main(){
+    cout<<"Hello world"<<endl;
+    solve();
     return 0;
 }
