@@ -9,5 +9,9 @@ int factorial(int n){
     }
     return res%mod;
 }
+
+int main(){
+    int n=5;
+    cout<<factorial(n)<<endl;
     return 0;
 }
