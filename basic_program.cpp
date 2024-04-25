@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-
+int mod 1e9+7;
 
 int factorial(int n){
     int res=1;
